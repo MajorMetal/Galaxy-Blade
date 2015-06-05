@@ -1,0 +1,256 @@
+fileFormatVersion: 2
+guid: 891cb9d28942f4646893001214e77c8e
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: ui_title
+    21300002: ui_pan_weapon
+    21300004: ui_btn_idle
+    21300006: ui_btn_run
+    21300008: ui_btn_backwalk
+    21300010: ui_btn_attack01
+    21300012: ui_pan_action
+    21300014: ui_pan_costume
+    21300016: ui_btn_attack02
+    21300018: ui_btn_attack03
+    21300020: ui_btn_jump
+    21300022: ui_btn_dead
+    21300024: ui_btn_modechange
+    21300026: ui_btn_damage
+    21300028: ui_btn_junkset
+    21300030: ui_btn_basebody
+    21300032: ui_btn_beginner
+    21300034: ui_btn_advance
+    21300036: ui_btn_farmer
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: ui_title
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 919
+        width: 476
+        height: 101
+      alignment: 1
+      pivot: {x: 0, y: 1}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_pan_weapon
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 684
+        width: 265
+        height: 337
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_idle
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 966
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_run
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 966
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_backwalk
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 913
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_attack01
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 913
+        width: 108
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_pan_action
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 326
+        width: 264
+        height: 587
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_pan_costume
+      rect:
+        serializedVersion: 2
+        x: 267
+        y: 654
+        width: 264
+        height: 259
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_attack02
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 859
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_attack03
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 859
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_jump
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 805
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_dead
+      rect:
+        serializedVersion: 2
+        x: 912
+        y: 805
+        width: 108
+        height: 51
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_modechange
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 751
+        width: 108
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_damage
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 751
+        width: 108
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_junkset
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 689
+        width: 219
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_basebody
+      rect:
+        serializedVersion: 2
+        x: 550
+        y: 628
+        width: 219
+        height: 49
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_beginner
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 635
+        width: 219
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_advance
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 581
+        width: 219
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: ui_btn_farmer
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 527
+        width: 219
+        height: 50
+      alignment: 0
+      pivot: {x: .5, y: .5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 

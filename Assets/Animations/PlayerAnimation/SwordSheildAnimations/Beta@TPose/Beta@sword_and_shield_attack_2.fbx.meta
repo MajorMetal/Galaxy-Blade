@@ -1,0 +1,938 @@
+fileFormatVersion: 2
+guid: 99feb59ef68014c9f99c97ee815e4be8
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: Beta:Head
+    100002: Beta:HeadTop_End
+    100004: Beta:Hips
+    100006: Beta:LeftArm
+    100008: Beta:LeftFoot
+    100010: Beta:LeftFootToeBase_End
+    100012: Beta:LeftForeArm
+    100014: Beta:LeftHand
+    100016: Beta:LeftHandIndex1
+    100018: Beta:LeftHandIndex2
+    100020: Beta:LeftHandIndex3
+    100022: Beta:LeftHandIndex4
+    100024: Beta:LeftHandMiddle1
+    100026: Beta:LeftHandMiddle2
+    100028: Beta:LeftHandMiddle3
+    100030: Beta:LeftHandMiddle4
+    100032: Beta:LeftHandPinky1
+    100034: Beta:LeftHandPinky2
+    100036: Beta:LeftHandPinky3
+    100038: Beta:LeftHandPinky4
+    100040: Beta:LeftHandRing1
+    100042: Beta:LeftHandRing2
+    100044: Beta:LeftHandRing3
+    100046: Beta:LeftHandRing4
+    100048: Beta:LeftHandThumb1
+    100050: Beta:LeftHandThumb2
+    100052: Beta:LeftHandThumb3
+    100054: Beta:LeftHandThumb4
+    100056: Beta:LeftLeg
+    100058: Beta:LeftShoulder
+    100060: Beta:LeftToeBase
+    100062: Beta:LeftUpLeg
+    100064: Beta:Neck
+    100066: Beta:Neck1
+    100068: Beta:RightArm
+    100070: Beta:RightFoot
+    100072: Beta:RightFootToeBase_End
+    100074: Beta:RightForeArm
+    100076: Beta:RightHand
+    100078: Beta:RightHandIndex1
+    100080: Beta:RightHandIndex2
+    100082: Beta:RightHandIndex3
+    100084: Beta:RightHandIndex4
+    100086: Beta:RightHandMiddle1
+    100088: Beta:RightHandMiddle2
+    100090: Beta:RightHandMiddle3
+    100092: Beta:RightHandMiddle4
+    100094: Beta:RightHandPinky1
+    100096: Beta:RightHandPinky2
+    100098: Beta:RightHandPinky3
+    100100: Beta:RightHandPinky4
+    100102: Beta:RightHandRing1
+    100104: Beta:RightHandRing2
+    100106: Beta:RightHandRing3
+    100108: Beta:RightHandRing4
+    100110: Beta:RightHandThumb1
+    100112: Beta:RightHandThumb2
+    100114: Beta:RightHandThumb3
+    100116: Beta:RightHandThumb4
+    100118: Beta:RightLeg
+    100120: Beta:RightShoulder
+    100122: Beta:RightToeBase
+    100124: Beta:RightUpLeg
+    100126: Beta:Spine
+    100128: Beta:Spine1
+    100130: Beta:Spine2
+    100132: //RootNode
+    400000: Beta:Head
+    400002: Beta:HeadTop_End
+    400004: Beta:Hips
+    400006: Beta:LeftArm
+    400008: Beta:LeftFoot
+    400010: Beta:LeftFootToeBase_End
+    400012: Beta:LeftForeArm
+    400014: Beta:LeftHand
+    400016: Beta:LeftHandIndex1
+    400018: Beta:LeftHandIndex2
+    400020: Beta:LeftHandIndex3
+    400022: Beta:LeftHandIndex4
+    400024: Beta:LeftHandMiddle1
+    400026: Beta:LeftHandMiddle2
+    400028: Beta:LeftHandMiddle3
+    400030: Beta:LeftHandMiddle4
+    400032: Beta:LeftHandPinky1
+    400034: Beta:LeftHandPinky2
+    400036: Beta:LeftHandPinky3
+    400038: Beta:LeftHandPinky4
+    400040: Beta:LeftHandRing1
+    400042: Beta:LeftHandRing2
+    400044: Beta:LeftHandRing3
+    400046: Beta:LeftHandRing4
+    400048: Beta:LeftHandThumb1
+    400050: Beta:LeftHandThumb2
+    400052: Beta:LeftHandThumb3
+    400054: Beta:LeftHandThumb4
+    400056: Beta:LeftLeg
+    400058: Beta:LeftShoulder
+    400060: Beta:LeftToeBase
+    400062: Beta:LeftUpLeg
+    400064: Beta:Neck
+    400066: Beta:Neck1
+    400068: Beta:RightArm
+    400070: Beta:RightFoot
+    400072: Beta:RightFootToeBase_End
+    400074: Beta:RightForeArm
+    400076: Beta:RightHand
+    400078: Beta:RightHandIndex1
+    400080: Beta:RightHandIndex2
+    400082: Beta:RightHandIndex3
+    400084: Beta:RightHandIndex4
+    400086: Beta:RightHandMiddle1
+    400088: Beta:RightHandMiddle2
+    400090: Beta:RightHandMiddle3
+    400092: Beta:RightHandMiddle4
+    400094: Beta:RightHandPinky1
+    400096: Beta:RightHandPinky2
+    400098: Beta:RightHandPinky3
+    400100: Beta:RightHandPinky4
+    400102: Beta:RightHandRing1
+    400104: Beta:RightHandRing2
+    400106: Beta:RightHandRing3
+    400108: Beta:RightHandRing4
+    400110: Beta:RightHandThumb1
+    400112: Beta:RightHandThumb2
+    400114: Beta:RightHandThumb3
+    400116: Beta:RightHandThumb4
+    400118: Beta:RightLeg
+    400120: Beta:RightShoulder
+    400122: Beta:RightToeBase
+    400124: Beta:RightUpLeg
+    400126: Beta:Spine
+    400128: Beta:Spine1
+    400130: Beta:Spine2
+    400132: //RootNode
+    7400000: mixamo.com
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .00999999978
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Beta:Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Beta:RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Beta@sword_and_shield_attack_2(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:Hips
+      position: {x: -.00325986627, y: .920846581, z: -.00624988647}
+      rotation: {x: -.145843208, y: .0850505233, z: -.0198415872, w: .98544538}
+      scale: {x: .99999994, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftUpLeg
+      position: {x: -.0963379964, y: -.0327329971, z: 0}
+      rotation: {x: .029655518, y: -.102066964, z: -.0125210583, w: .994256616}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftLeg
+      position: {x: -0, y: -.417299986, z: -.0173000004}
+      rotation: {x: .311087787, y: -.00416913442, z: -.0102093024, w: .950317264}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftFoot
+      position: {x: -.000125999999, y: -.391899973, z: -.00847699959}
+      rotation: {x: -.021980742, y: .704909623, z: -.564813852, w: .428491265}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftToeBase
+      position: {x: .00183299999, y: -.121930994, z: .0828230008}
+      rotation: {x: .00383842294, y: -.0481799059, z: .0609442815, w: .996970296}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftFootToeBase_End
+      position: {x: -0, y: 0, z: .101681001}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightUpLeg
+      position: {x: .0963379964, y: -.0327329971, z: 0}
+      rotation: {x: .00293506682, y: .006583713, z: .0648384318, w: .99786979}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightLeg
+      position: {x: -0, y: -.417299986, z: -.0173000004}
+      rotation: {x: .355152518, y: -.0801106319, z: .00857851375, w: .931329906}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightFoot
+      position: {x: -.000125999999, y: -.391899973, z: -.00847699959}
+      rotation: {x: -.453436106, y: .00376743497, z: -.00251862104, w: .891277254}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightToeBase
+      position: {x: .00183299999, y: -.121930994, z: .0828230008}
+      rotation: {x: -.0768537223, y: .0385795198, z: -.000145496189, w: .996295691}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightFootToeBase_End
+      position: {x: -3.19999999e-05, y: 0, z: .101681001}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:Spine
+      position: {x: -0, y: .0922629982, z: .0157709997}
+      rotation: {x: .242985442, y: -.0515837185, z: .0465835072, w: .967536688}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:Spine1
+      position: {x: -0, y: .162539989, z: -.00165600004}
+      rotation: {x: .0181851927, y: -.0160386078, z: .00539841317, w: .999691427}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:Spine2
+      position: {x: -0, y: .136395991, z: -.0129229994}
+      rotation: {x: .0180289317, y: -.01636534, z: .00618787296, w: .999684393}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftShoulder
+      position: {x: -.0614419989, y: .10187, z: -.0379320011}
+      rotation: {x: .033883173, y: -.0296653192, z: .0657714009, w: .996817946}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftArm
+      position: {x: -.123190999, y: -.0111300005, z: -.0179349985}
+      rotation: {x: -.0242110174, y: .0281343274, z: -.0729214698, w: .996646821}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftForeArm
+      position: {x: -.276869982, y: 0, z: 0}
+      rotation: {x: -.140330687, y: .0203434266, z: -.0127445906, w: .989813685}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHand
+      position: {x: -.278737992, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandIndex1
+      position: {x: -.103944995, y: .00614799978, z: .027054999}
+      rotation: {x: -.0410118923, y: .0373276509, z: .0392030478, w: .997691274}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandIndex2
+      position: {x: -.0554930009, y: 0, z: 0}
+      rotation: {x: -2.8747816e-05, y: -3.61841899e-06, z: .0252375882, w: .999681473}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandIndex3
+      position: {x: -.0339109972, y: 0, z: 0}
+      rotation: {x: -1.21793655e-05, y: -1.83074644e-06, z: .0405274592, w: .999178469}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandIndex4
+      position: {x: -.0249999985, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandMiddle1
+      position: {x: -.104638994, y: .00614799978, z: .00429800013}
+      rotation: {x: -.0217461865, y: .0284069031, z: .0392798595, w: .998587668}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandMiddle2
+      position: {x: -.0579209998, y: 0, z: 0}
+      rotation: {x: -9.6508245e-07, y: -8.25907989e-07, z: .02167405, w: .999765098}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandMiddle3
+      position: {x: -.0371319987, y: 0, z: 0}
+      rotation: {x: .00010252808, y: -5.26371559e-06, z: .0341776311, w: .999415815}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandMiddle4
+      position: {x: -.0229999982, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandPinky1
+      position: {x: -.100129992, y: -.000782999967, z: -.0396709964}
+      rotation: {x: -.0394801795, y: .0276180897, z: .03392566, w: .998262286}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandPinky2
+      position: {x: -.0367630012, y: 0, z: 0}
+      rotation: {x: 3.61270249e-05, y: 3.63006006e-06, z: .0116330283, w: .999932349}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandPinky3
+      position: {x: -.0281130001, y: 0, z: 0}
+      rotation: {x: -9.81767153e-05, y: -3.91132016e-06, z: .0305370595, w: .999533653}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandPinky4
+      position: {x: -.029000001, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandRing1
+      position: {x: -.103252001, y: .003211, z: -.0187550001}
+      rotation: {x: -.0179845262, y: .0191615224, z: .0295009222, w: .999219298}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandRing2
+      position: {x: -.0544519983, y: 0, z: 0}
+      rotation: {x: -4.57242022e-05, y: -2.46427885e-06, z: .0262500737, w: .999655485}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandRing3
+      position: {x: -.0371319987, y: 0, z: 0}
+      rotation: {x: -.000205206277, y: -1.29284933e-06, z: .0346599035, w: .999399185}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandRing4
+      position: {x: -.0199999996, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandThumb1
+      position: {x: -.0237849988, y: -.0100290002, z: .0262089986}
+      rotation: {x: -.0217376836, y: -.00335224299, z: -.107700139, w: .993940115}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandThumb2
+      position: {x: -.0336240008, y: -.0100290002, z: .0283979978}
+      rotation: {x: .0337014832, y: .108914733, z: -.0297459662, w: .993034303}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandThumb3
+      position: {x: -.0450179987, y: -.0134449992, z: .021782998}
+      rotation: {x: .368948519, y: .180300191, z: -.163112313, w: .897085965}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:LeftHandThumb4
+      position: {x: -.0259999987, y: -.00999999978, z: .00999999978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:Neck
+      position: {x: -0, y: .138774008, z: -.0435419977}
+      rotation: {x: -.0920319259, y: -.0122609427, z: .00792096648, w: .99564904}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:Neck1
+      position: {x: -0, y: .0434000008, z: .00926900003}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:Head
+      position: {x: -0, y: .0402659997, z: .00858499948}
+      rotation: {x: -.225510597, y: .0384262428, z: .0404673479, w: .97264117}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:HeadTop_End
+      position: {x: -0, y: .230296984, z: .00123099994}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightShoulder
+      position: {x: .0614020005, y: .10187, z: -.0379320011}
+      rotation: {x: -.00440551899, y: -.106442034, z: .0318826698, w: .993797898}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightArm
+      position: {x: .123231001, y: -.0111300005, z: -.0179349985}
+      rotation: {x: -.196357608, y: .102511726, z: -.0457723252, w: .974084139}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightForeArm
+      position: {x: .276869982, y: 0, z: 0}
+      rotation: {x: -.129009709, y: -.00501997164, z: .0163746774, w: .99149543}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHand
+      position: {x: .278737992, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandIndex1
+      position: {x: .104665004, y: .00489600003, z: .0271199979}
+      rotation: {x: -.0490251556, y: -.0199826043, z: -.0385724418, w: .997852445}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandIndex2
+      position: {x: .0537679978, y: 0, z: 0}
+      rotation: {x: -1.81037376e-06, y: 6.84521751e-07, z: -.0145703834, w: .999893844}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandIndex3
+      position: {x: .0338549986, y: 0, z: 0}
+      rotation: {x: .00469427649, y: -.000115546354, z: -.0173118003, w: .999839187}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandIndex4
+      position: {x: .0259999987, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandMiddle1
+      position: {x: .107595995, y: .00489600003, z: .00427799998}
+      rotation: {x: -.054256659, y: -.0231934022, z: -.0345669314, w: .997658968}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandMiddle2
+      position: {x: .0561679974, y: 0, z: 0}
+      rotation: {x: 1.18870475e-05, y: 4.59141859e-07, z: -.00696875853, w: .999975801}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandMiddle3
+      position: {x: .0373639986, y: 0, z: 0}
+      rotation: {x: -8.47373813e-05, y: -1.09150938e-06, z: -.0277480744, w: .999614954}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandMiddle4
+      position: {x: .0229999982, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandPinky1
+      position: {x: .0997150019, y: -.00119099999, z: -.0395400003}
+      rotation: {x: -.0532695353, y: -.0216251872, z: -.0267118663, w: .997988641}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandPinky2
+      position: {x: .0365279987, y: 0, z: 0}
+      rotation: {x: -6.13450311e-07, y: 1.12596854e-06, z: -.019887913, w: .999802291}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandPinky3
+      position: {x: .0278200004, y: 0, z: 0}
+      rotation: {x: -2.79396648e-08, y: -9.18283604e-07, z: -.0321886241, w: .999481797}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandPinky4
+      position: {x: .029000001, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandRing1
+      position: {x: .104701996, y: .00387899997, z: -.0193629991}
+      rotation: {x: -.0408064947, y: -.0166406967, z: -.0294739176, w: .998593628}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandRing2
+      position: {x: .0540129989, y: 0, z: 0}
+      rotation: {x: .0083416868, y: -5.97368635e-05, z: -.0137228025, w: .999871135}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandRing3
+      position: {x: .0339159966, y: 0, z: 0}
+      rotation: {x: -1.27009031e-07, y: 2.57231113e-06, z: -.0245086122, w: .999699652}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandRing4
+      position: {x: .0219999999, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandThumb1
+      position: {x: .0251780003, y: -.00936699938, z: .0251369998}
+      rotation: {x: -.0271135047, y: .0459955037, z: -.091209881, w: .994399369}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandThumb2
+      position: {x: .0326379985, y: -.0108699994, z: .0296689998}
+      rotation: {x: .081069611, y: -.143848866, z: .101277754, w: .981059611}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandThumb3
+      position: {x: .0441650003, y: -.0137029998, z: .0213500001}
+      rotation: {x: -.138370395, y: .0283920337, z: -.000554920814, w: .989973366}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Beta:RightHandThumb4
+      position: {x: .0259999987, y: -.00999999978, z: .00999999978}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 
