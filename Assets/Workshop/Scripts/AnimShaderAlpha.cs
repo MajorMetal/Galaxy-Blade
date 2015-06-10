@@ -11,7 +11,7 @@ public class AnimShaderAlpha : Anim {
 	float mEndAlpha = 0;
 
 	void Awake() {
-		mMaterial = GetComponent<MeshRenderer>().renderer.material;
+		mMaterial = GetComponent<MeshRenderer>().GetComponent<Renderer>().material;
 	}
 	
 	protected override void updateAnim( float factor, float deltaTime ) {

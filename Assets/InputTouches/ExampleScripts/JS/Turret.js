@@ -125,10 +125,10 @@ function OnMFChargeEnd(cInfo:ChargedInfo){
 		//match the bullet rotation to turret's, so that when force is applied, the bullet head in the right direction
 		bullet.transform.rotation=turret.rotation;
 		//cancel current force on bullet
-		bullet.rigidbody.velocity=Vector3.zero;
+		bullet.GetComponent.<Rigidbody>().velocity=Vector3.zero;
 		
 		//shoot the bullet based on the charged percent
-		bullet.rigidbody.AddForce(cInfo.percent*maxForce*bullet.transform.forward);
+		bullet.GetComponent.<Rigidbody>().AddForce(cInfo.percent*maxForce*bullet.transform.forward);
 		
 		//clear the charge indicator bar
 		bar.pixelInset=new Rect(bar.pixelInset.x, bar.pixelInset.y, 0, bar.pixelInset.height);

@@ -20,17 +20,17 @@ public class AnimAlpha : Anim {
 	}
 
 	virtual public Color getCurrentColor() {
-		return base.gameObject.GetComponent<MeshRenderer>().renderer.material.color;
+		return base.gameObject.GetComponent<MeshRenderer>().GetComponent<Renderer>().material.color;
 	}
 
 	virtual public void setColor( Color newColor ) {
-		base.gameObject.GetComponent<MeshRenderer>().renderer.material.color = newColor;
+		base.gameObject.GetComponent<MeshRenderer>().GetComponent<Renderer>().material.color = newColor;
 	}
 	
 	virtual public void setAlpha( float alpha ) {
 		Color c = getCurrentColor();
 		c.a = alpha;
-		base.gameObject.GetComponent<MeshRenderer>().renderer.material.color = c;
+		base.gameObject.GetComponent<MeshRenderer>().GetComponent<Renderer>().material.color = c;
 	}
 
 	public void animateToValue( float alpha ) {
