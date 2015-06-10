@@ -116,7 +116,7 @@ public class TextureCycler : MonoBehaviour {
 
 	// Called by TextureLoader after LoadTextureAtIndex() finishes. Applies the texture to the main sphere.
 	public void applyReadyTexture() {
-		this.renderer.material.mainTexture = TextureLoader.getInstance().getCurrentTexture();
+		this.GetComponent<Renderer>().material.mainTexture = TextureLoader.getInstance().getCurrentTexture();
 	}
 
 	// Ensures the texture index for current display is never out of bounds!

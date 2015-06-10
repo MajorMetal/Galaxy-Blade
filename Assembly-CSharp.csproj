@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{517120A5-35E1-D6E6-EBB1-518EC1E013E6}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_3;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;UNITY_PRO_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity4.6/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity4.6/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Dylan\AngleRotation.cs" />
+     <Compile Include="Assets\Dylan\HoldBlock.cs" />
+     <Compile Include="Assets\Dylan\LearnToFight.cs" />
+     <Compile Include="Assets\Dylan\LevelManager.cs" />
+     <Compile Include="Assets\Dylan\PointerEventTrigger.cs" />
+     <Compile Include="Assets\Dylan\RotationTest2.cs" />
+     <Compile Include="Assets\Dylan\SlashScript.cs" />
+     <Compile Include="Assets\Dylan\StartApp.cs" />
+     <Compile Include="Assets\Dylan\rotationTest.cs" />
+     <Compile Include="Assets\EnemyOneAI.cs" />
+     <Compile Include="Assets\GUI\Sci-fi-Holographic-Screens\AnimatedTextures.cs" />
+     <Compile Include="Assets\GUI\SciFiSkin\Scripts\ShowSliderValue.cs" />
+     <Compile Include="Assets\GUI\SciFiSkin\Scripts\TiltWindow.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\DPad.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\Demo\Back.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\Demo\ChargeModeSwitcher.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\Demo\DemoMenu.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\DemoSceneTarget.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\FlickDemo.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\OrbitCam.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\RTSCam.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\RTSCam_RotateObject.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\RotateObject.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\SwipeDemo.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\TapDemo.cs" />
+     <Compile Include="Assets\InputTouches\ExampleScripts\C#\Turret.cs" />
+     <Compile Include="Assets\InputTouches\FPSDisplay\FpsDisplay.cs" />
+     <Compile Include="Assets\Lerp.cs" />
+     <Compile Include="Assets\MattGui\ESGuiEffects.cs" />
+     <Compile Include="Assets\MattGui\PSGuiEffects.cs" />
+     <Compile Include="Assets\MattScoreKeeper\ScoreKeeper.cs" />
+     <Compile Include="Assets\MeleeWeaponTrail\Example\Scripts\LookAtTarget.cs" />
+     <Compile Include="Assets\MeleeWeaponTrail\Example\Scripts\MouseMove.cs" />
+     <Compile Include="Assets\MeleeWeaponTrail\Scripts\Interpolate.cs" />
+     <Compile Include="Assets\MeleeWeaponTrail\Scripts\MeleeWeaponTrail.cs" />
+     <Compile Include="Assets\Models\Player Model\NiceKnight\Scripts\CameraControl.cs" />
+     <Compile Include="Assets\Models\Player Model\NiceKnight\Scripts\WatchModeMainControl.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVROverlay.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPlatformMenu.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRPostRender.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRTouchpad.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\OVRVolumeControl.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRChromaticAberration.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRDebugGraph.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRDebugUtils.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRGameUtils.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRInputControl.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRMathUtils.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRModeParms.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRMonoscopic.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRResetOrientation.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRTimeWarpUtils.cs" />
+     <Compile Include="Assets\OVR\Moonlight\Scripts\Utils\OVRWaitCursor.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCameraRig.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRCommon.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRDisplay.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRManager.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRPluginEvent.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRTracker.cs" />
+     <Compile Include="Assets\OVR\Scripts\OVRUnityVersionChecker.cs" />
+     <Compile Include="Assets\OVR\Scripts\OvrCapi.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRCrosshair.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGUI.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGamepadController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRGridCube.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRMainMenu.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRPlayerController.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRScreenFade.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRUGUI.cs" />
+     <Compile Include="Assets\OVR\Scripts\Util\OVRVisionGuide.cs" />
+     <Compile Include="Assets\Sam&apos;s Dookie\EnemyAI.cs" />
+     <Compile Include="Assets\Sam&apos;s Dookie\EnemyHealth.cs" />
+     <Compile Include="Assets\Sam&apos;s Dookie\EnemySword.cs" />
+     <Compile Include="Assets\Sam&apos;s Dookie\PlayerHealth.cs" />
+     <Compile Include="Assets\Sam&apos;s Dookie\PlayerSword.cs" />
+     <Compile Include="Assets\Sam&apos;s Dookie\Tutorial.cs" />
+     <Compile Include="Assets\Scripts\LookInputModule.cs" />
+     <Compile Include="Assets\Scripts\ScoreDisplay.cs" />
+     <Compile Include="Assets\SplashLoader.cs" />
+     <Compile Include="Assets\TiltInput.cs" />
+     <Compile Include="Assets\Timer.cs" />
+     <Compile Include="Assets\Workshop\Scripts\Anim.cs" />
+     <Compile Include="Assets\Workshop\Scripts\AnimAlpha.cs" />
+     <Compile Include="Assets\Workshop\Scripts\AnimShaderAlpha.cs" />
+     <Compile Include="Assets\Workshop\Scripts\ApplicationManager.cs" />
+     <Compile Include="Assets\Workshop\Scripts\InputManager.cs" />
+     <Compile Include="Assets\Workshop\Scripts\Raycaster.cs" />
+     <Compile Include="Assets\Workshop\Scripts\Reticle.cs" />
+     <Compile Include="Assets\Workshop\Scripts\ScreenFaderSphere.cs" />
+     <Compile Include="Assets\Workshop\Scripts\SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets\Workshop\Scripts\TextureCycler.cs" />
+     <Compile Include="Assets\Workshop\Scripts\TextureLoader.cs" />
+     <Compile Include="Assets\Workshop\Scripts\WorkshopUtils.cs" />
+     <None Include="Assets\Plugins\Android\res\values-de\assets.xml" />
+     <None Include="Assets\Plugins\donotdelete.txt" />
+     <None Include="Assets\Plugins\Android\res\values-es\assets.xml" />
+     <None Include="Assets\Workshop\Shaders\Mobile Transparent Vertex Color No Main Tex.shader" />
+     <None Include="Assets\Plugins\Android\assets\donotdelete.txt" />
+     <None Include="Assets\Advanced Glow\Material\Shader\Advanced Glow.shader" />
+     <None Include="Assets\Advanced Glow\readme.txt" />
+     <None Include="Assets\Plugins\x86_64\donotdelete.txt" />
+     <None Include="Assets\MeleeWeaponTrail\README.txt" />
+     <None Include="Assets\Plugins\Android\res\values-es\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-es-rES\assets.xml" />
+     <None Include="Assets\Environment\Nebula Pack\Nebula Pack - Readme.txt" />
+     <None Include="Assets\Plugins\Android\res\values-ko\assets.xml" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\Plugins\Android\res\values-en-rGB\assets.xml" />
+     <None Include="Assets\OVR\Shaders\TextShader3D.shader" />
+     <None Include="Assets\Workshop\SamsungDisclaimer.txt" />
+     <None Include="Assets\Plugins\Android\res\values-en-rGB\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\values-v11\styles.xml" />
+     <None Include="Assets\OVR\Moonlight\Shaders\Unlit Crosshair.shader" />
+     <None Include="Assets\OVR\Shaders\Unlit Transparent HUD.shader" />
+     <None Include="Assets\Plugins\Android\res\values-fr\assets.xml" />
+     <None Include="Assets\Plugins\Android\res\values-v14\styles.xml" />
+     <None Include="Assets\Plugins\Android\res\values-ko\strings.xml" />
+     <None Include="Assets\Workshop\Shaders\Mobile Vertex Colored.shader" />
+     <None Include="Assets\Environment\Nebula Pack\Skybox Green Nebula\Green Nebula - Readme.txt" />
+     <None Include="Assets\Workshop\Shaders\Mobile Vertex Colored No Main Tex.shader" />
+     <None Include="Assets\Plugins\Android\res\values-es-rES\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values-fr\strings.xml" />
+     <None Include="Assets\Plugins\Android\res\values\strings.xml" />
+     <None Include="Assets\Standard Assets\Shaders\DifSpecTransp.shader" />
+     <None Include="Assets\Plugins\Android\res\values-de\strings.xml" />
+     <None Include="Assets\OVR\Moonlight\Materials\GlobalMenu\OVRCutoutRamp.shader" />
+     <None Include="Assets\Plugins\Android\res\values\assets.xml" />
+     <None Include="Assets\OVR\Shaders\OVRGUIShader.shader" />
+     <None Include="Assets\Plugins\x86\donotdelete.txt" />
+     <None Include="Assets\Plugins\Android\res\values-it\strings.xml" />
+     <None Include="Assets\Workshop\Shaders\Mobile Transparent Vertex Color.shader" />
+     <None Include="Assets\Plugins\Android\res\raw\efigs.fnt" />
+     <None Include="Assets\Plugins\Android\res\values-it\assets.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>/Applications/Unity4.6/Unity.app/Contents/UnityExtensions/Unity/GUISystem/4.6.3/UnityEngine.UI.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{7C143883-EECF-C534-289F-C64B588CA4CA}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

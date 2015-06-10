@@ -11,7 +11,7 @@ public class FpsDisplay : MonoBehaviour {
 
 	void Start()
 	{
-		if( !guiText )
+		if( !GetComponent<GUIText>() )
 		{
 			print ("FramesPerSecond needs a GUIText component!");
 			enabled = false;
@@ -30,7 +30,7 @@ public class FpsDisplay : MonoBehaviour {
 		if( timeleft <= 0.0 )
 		{
 			// display two fractional digits (f2 format)
-			guiText.text = "FrameRate = " + (accum/frames).ToString("f2");
+			GetComponent<GUIText>().text = "FrameRate = " + (accum/frames).ToString("f2");
 			timeleft = updateInterval;
 			accum = 0.0f;
 			frames = 0;

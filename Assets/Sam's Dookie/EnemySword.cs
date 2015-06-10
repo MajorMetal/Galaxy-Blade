@@ -39,8 +39,8 @@ public class EnemySword : MonoBehaviour {
 			hit = true;
 			block = false;
 			damageRend.enabled = true;
-			audio.PlayOneShot( EnemyStrikeL, 1.0F);
-			audio.PlayOneShot( PlayerGrunt, 1.0F);
+			GetComponent<AudioSource>().PlayOneShot( EnemyStrikeL, 1.0F);
+			GetComponent<AudioSource>().PlayOneShot( PlayerGrunt, 1.0F);
 			Attack();
 		}
 		if (col.gameObject.tag == "PlayerShield" && playerAnim.GetBool("isBlocking")) {
@@ -48,7 +48,7 @@ public class EnemySword : MonoBehaviour {
 			hit = false;
 			dazedTime = dazedTime + 1f;
 			tutorial.turnCounter++;
-			audio.PlayOneShot( EnemyBlock, 1.0F);
+			GetComponent<AudioSource>().PlayOneShot( EnemyBlock, 1.0F);
 		}
 		if (col.gameObject.tag == "PlayerSword") { parry = true; }	
 	}

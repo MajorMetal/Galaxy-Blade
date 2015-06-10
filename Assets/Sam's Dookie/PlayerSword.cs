@@ -52,8 +52,8 @@ public class PlayerSword : MonoBehaviour {
 			timer = Time.time + .9f;
 			hit = true;
 			Attack();
-			audio.PlayOneShot( PlayerStrikeL, 1.0F);
-			audio.PlayOneShot( EnemyGrunt, 1.0F);
+			GetComponent<AudioSource>().PlayOneShot( PlayerStrikeL, 1.0F);
+			GetComponent<AudioSource>().PlayOneShot( EnemyGrunt, 1.0F);
 		}
 		else if (col.gameObject.tag == "Enemy" && !timer.HasValue && (!enemyOneAnim.GetBool("isBlocking") ||
 		                                                              !enemyTwoAnim.GetBool("isBlocking"))) {
@@ -61,14 +61,14 @@ public class PlayerSword : MonoBehaviour {
 			hit = true;
 			block = false;
 			Attack();
-			audio.PlayOneShot( PlayerStrikeL, 1.0F);
-			audio.PlayOneShot( EnemyGrunt, 1.0F);
+			GetComponent<AudioSource>().PlayOneShot( PlayerStrikeL, 1.0F);
+			GetComponent<AudioSource>().PlayOneShot( EnemyGrunt, 1.0F);
 		}
 		else if (col.gameObject.tag == "EnemyShield" && (enemyOneAnim.GetBool("isBlocking") ||
 														 enemyTwoAnim.GetBool("isBlocking"))) {
 			block = true;
 			hit = false;
-			audio.PlayOneShot( PlayerBlock, 1.0F);
+			GetComponent<AudioSource>().PlayOneShot( PlayerBlock, 1.0F);
 		}
 		else if (col.gameObject.tag == "EnemySword") { parry = true; }	
 	}

@@ -67,7 +67,7 @@
 					//normalize the direction
 					sw.direction.Normalize();
 					//apply the force according to the direction
-					shootObjInstance.rigidbody.AddForce(Vector3(sw.direction.x, sw.direction.y, 0)*force);
+					shootObjInstance.GetComponent.<Rigidbody>().AddForce(Vector3(sw.direction.x, sw.direction.y, 0)*force);
 				}
 				//if using siwpe speed as force determining factor
 				else if(forceFactor==1){
@@ -78,7 +78,7 @@
 					//normalize the direction
 					sw.direction.Normalize();
 					//apply the force according to the direction
-					shootObjInstance.rigidbody.AddForce(Vector3(sw.direction.x, sw.direction.y, 0)*force);
+					shootObjInstance.GetComponent.<Rigidbody>().AddForce(Vector3(sw.direction.x, sw.direction.y, 0)*force);
 				}
 				
 				//make sure the shootObject is destroy after 3 second
